@@ -161,10 +161,7 @@ namespace Microsoft.AspNet.Razor.Test.Generator
                                                                    "DefineSection",
                                                                    "Instrumentation.BeginContext",
                                                                    "Instrumentation.EndContext",
-                                                                   new GeneratedTagHelperContext())
-            {
-                ResolveUrlMethodName = "Href"
-            };
+                                                                   new GeneratedTagHelperContext());
             if (hostConfig != null)
             {
                 host = hostConfig(host);
